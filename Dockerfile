@@ -6,6 +6,7 @@ RUN npm install --production --no-cache
 
 FROM node:12-alpine
 ENV USER node
+ENV AWS_ACCESS_KEY_ID="ASIAZAQLIHBHVVTSZBXA"
 ENV WORKDIR /home/$USER/app
 WORKDIR $WORKDIR
 COPY --from=0 /usr/src/app/node_modules node_modules
