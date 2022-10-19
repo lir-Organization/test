@@ -5,6 +5,6 @@ resource "azurerm_managed_disk" "source" {
   create_option        = ""
   location             = ""
   name                 = ""
-  resource_group_name  = "foo3"
+  resource_group_name  = "foo4"
   storage_account_type = ""
 }
